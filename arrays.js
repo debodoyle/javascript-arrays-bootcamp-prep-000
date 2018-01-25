@@ -11,3 +11,15 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, chocolateCandy
   chocolateBars.unshift(chocolateCandy);
   return chocolateBars;
 }
+
+function addElementToEndOfArray(chocolateBars, chocolateCandy) {
+  return [...chocolateBars, chocolateCandy];
+}
+
+function destructivelyAddElementToEndOfArray() {
+  
+}
+
+
+
+
