@@ -4,7 +4,7 @@ var chocolateBars = ['snickers', 'hundred grand','kitkat', 'skittles'];
 // .unshift takes an element of the beginning
 
 function addElementToBeginningOfArray(array, element) {
-  
+  var array = 
 }
 
 function destructivelyAddElementToBeginningOfArray() {
