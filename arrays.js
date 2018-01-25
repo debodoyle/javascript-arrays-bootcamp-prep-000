@@ -4,8 +4,7 @@ var chocolateCandy = "foo";
 // .unshift takes an element of the beginning
 
 function addElementToBeginningOfArray(chocolateBars, chocolateCandy) {
-  chocolateBars = [chocolateCandy, ...chocolateBars];
-  return chocolateBars;
+  return [chocolateCandy, ...chocolateBars];
 }
 
 function destructivelyAddElementToBeginningOfArray() {
